@@ -13,3 +13,88 @@ button:hover {
     background-color: white;
     transition: 0.5s ease-in-out;
 }
+
+a {
+    color: black;
+}
+
+h1 {
+    color: rebeccapurple;
+    font-size: 64px;
+    
+}
+
+.cercle {
+    margin-top: 40px;
+    margin-right: 80px;
+    width: 260px;
+    height: 260px;
+    border-radius: 130px;
+    margin-bottom: 20px;
+}
+
+.cercle2 {
+    margin-top: 40px;
+    width: 260px;
+    height: 260px;
+    border-radius: 130px;
+    margin-bottom: 20px;
+}
+
+.right {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.rectangle {
+    height: 150px;
+    width: 400px;
+    background-color: rebeccapurple;
+    z-index: -2;
+    position: absolute;
+}
+
+.rectangle2 {
+    height: 150px;
+    width: 400px;
+    background-color: rebeccapurple;
+    z-index: -2;
+    position: absolute;
+    margin-left: 90px;
+    margin-top: 200px;
+    
+}
+
+@media (min-width: 992px) {
+
+    .right {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-left: 160px;
+    }
+
+    .droite {
+        float: right;
+    }
+
+    .centrer {
+        align-items: center;
+        display: flex;
+    }
+
+    .left {
+        float: left;
+    }
+
+}
+
+@media (max-width: 992px) {
+    .rectangle {
+        display: none;
+    }
+
+    .rectangle2 {
+        display: none;
+    }
+}
