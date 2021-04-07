@@ -1,0 +1,15 @@
+button {
+    border: 0;
+    width: 140px;
+    height: 35px;
+    color: white;
+    background-color: rebeccapurple;
+    font-weight: bold;
+    border: 1px solid rebeccapurple;
+}
+
+button:hover {
+    color: rebeccapurple;
+    background-color: white;
+    transition: 0.5s ease-in-out;
+}
